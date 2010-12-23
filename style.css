@@ -1,0 +1,13 @@
+/*
+Theme Name: Liz Collins
+Theme URI: http://lizcollins.com/lc
+Description: Child theme of portfolium theme by http://www.wpshower.com modified by Daniel Wiener for textile artist.
+Version: 1.0
+Author: WPSHOWER modified by Daniel Wiener
+Author URI: http://danielwiener.com
+Template: portfolium
+License: GNU/GPL Version 2 or later. http://www.gnu.org/licenses/gpl.html
+Tags: grids, portfolio, modern, stylish, minimalistic
+*/
+
+ @import url('../portfolium/style.css')
