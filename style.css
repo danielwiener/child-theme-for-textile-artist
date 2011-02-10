@@ -9,12 +9,7 @@ Template: portfolium
 License: GNU/GPL Version 2 or later. http://www.gnu.org/licenses/gpl.html
 Tags: grids, portfolio, modern, stylish, minimalistic
 */
-
-
-
-    
-
-	/*** Reset ***/
+ /*** Reset ***/
 
 	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:top;background:transparent;}
 	body{line-height:1;text-align:left;}
@@ -37,7 +32,11 @@ Tags: grids, portfolio, modern, stylish, minimalistic
 
 	/*** Header ***/
 
-	.header {margin-bottom: 15px; padding-top: 30px; background: url("i/post_list.gif") 0 80px no-repeat;}
+	.header {
+		margin-bottom:15px;
+		padding-top: 20px;
+		background: url("i/post_list.gif") 0 80px no-repeat;
+	   /* border: 1px solid red;*/ }
 	.logo {font-size: 19px; line-height: 0.95; width: 145px; height: 40px; padding: 0 0 11px 15px; background: url("i/post_list.gif") 0 50px no-repeat; float: left; position: relative;}
 	.logo a {color: #ccc; text-decoration: none; position: absolute; bottom: 12px;}
 	.logo a:hover {color: #fff18f;}
